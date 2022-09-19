@@ -12,15 +12,38 @@
 </head>
 <body>
 <h1 style="text-align: center"class="tieu-de"> Máy Tính </h1>
-<input type="text" id="num1">
-<input type="text" id="num2"><br>
-<p>
-    <button type="button" onclick="A()" >Addition(+)</button>
-    <button type="button" onclick="S()" >Subtraction(-)</button>
-    <button type="button" onclick="M()">Multiplication(X)</button>
-    <button type="button" onclick="D()">Division(/)</button>
-</p>
-<p id="result" style="color: #ef0951" ></p>
+<table >
+    <tr>
+        <th>
+            Nhập số thứ nhất
+        </th>
+        <th>
+             Nhập số thứ hai
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <input type="text" id="num1">
+        </th>
+        <th>
+            <input type="text" id="num2">
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" onclick="A()" >Addition(+)</button><br>
+            <button type="button" onclick="S()" >Subtraction(-)</button><br>
+            <button type="button" onclick="M()">Multiplication(X)</button><br>
+            <button type="button" onclick="D()">Division(/)</button>
+        </td>
+    </tr>
+    <tr>
+        <th>
+        <p id="result" style="color: #ef0951" ></p>
+        </th>
+    </tr>
+
+</table>
 <script>
     function A() {
         let number1= parseFloat(document.getElementById('num1').value);
