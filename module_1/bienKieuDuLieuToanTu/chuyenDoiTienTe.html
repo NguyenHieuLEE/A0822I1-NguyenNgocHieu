@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng chuyển đổi tiền tệ</title>
+</head>
+<body>
+<form method="post">
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="amount" id="amount"></td>
+            <td><select id="fromCurrency">
+                <option name="1" value="VN">Việt Nam</option>
+                <option name="1" value="usd">USD</option>
+                <option name="1" value="bang">bảng Anh</option>
+            </select>
+            </td>
+            <td><select id="toCurrency">
+                <option name="2" value="usd">USD</option>
+                <option name="2" value="VN">Việt Nam</option>
+                <option name="2" value="bang">bảng Anh</option>
+            </select>
+            </td>
+            <td>
+                <button type="button" name="convert" onclick="chuyenDoiTien()">Convert</button>
+            </td>
+        </tr>
+    </table>
+    <p id="result">Result: </p>
+</form>
+<script>
+    function chuyenDoiTien() {
+        const heso1  = 0.00004264;
+        const heso2  = 0.00003706;
+        const heso3  = 0.8689691;
+        let giaTri = +document.getElementById("amount").value;
+        let from = document.getElementById("fromCurrency").value;
+        let to = document.getElementById("toCurrency").value;
+        if (from == to) {
+            document.getElementById("result").innerHTML = "Result: " + giaTri;
+        }
+        if (from == 'VN' && to == 'usd') {
+            document.getElementById("result").innerHTML = "Result: " + giaTri * heso1 ;
+        }
+        if (from == 'usd' && to == 'VN') {
+            document.getElementById("result").innerHTML = "Result: " + giaTri / heso1;
+        }
+        if (from == 'VN' && to == 'bang') {
+            document.getElementById("result").innerHTML = "Result: " + giaTri * heso2 ;
+        }
+        if (from == 'bang' && to == 'VN') {
+            document.getElementById("result").innerHTML = "Result: " + giaTri / heso2;
+        }
+        if (from == 'usd' && to == 'bang') {
+            document.getElementById("result").innerHTML = "Result: " + giaTri * heso3 ;
+        }
+        if (from == 'bang' && to == 'usd') {
+            document.getElementById("result").innerHTML = "Result: " + giaTri / heso3;
+        }
+
+    }
+</script>
+</body>
+</html>
