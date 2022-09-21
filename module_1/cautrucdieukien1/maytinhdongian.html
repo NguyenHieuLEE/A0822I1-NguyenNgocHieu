@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy Tính </title>
+    <style>
+        table {
+            border-collapse: collapse;
+
+        }
+        tr,th {
+            border: 1px solid #000000;
+            height: 70px;
+            padding: 5px;
+            width: auto;
+            background: #89d5b2;
+            text-align: center;
+        }
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button{
+            height: 56px;
+            width: 66px;
+
+        }
+    </style>
+</head>
+<body style="table-align:center;">
+<h1 style="text-align:center;"> Máy tính</h1>
+<table class ="center" border :1px >
+    <tr>
+        <th colspan="4"><p style="text-align: right; font-size:25px;width: 520px;height: 30px;"class="tieu-de" id="A" > </p>
+    </th>
+
+    </tr>
+    <tr>
+        <td><button type="button" onclick="D(1)" >1</button></td>
+        <td><button type="button" onclick="D(2)" >2</button></td>
+        <td><button type="button" onclick="D(3)">3</button></td>
+        <td><button type="button" onclick="L('+')">+</button><br></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="D(4)">4</button></td>
+        <td><button type="button" onclick="D(5)">5</button></td>
+        <td><button type="button" onclick="D(6)">6</button></td>
+        <td><button type="button" onclick="L('-')">-</button><br></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="D(7)">7</button></td>
+        <td><button type="button" onclick="D(8)">8</button></td>
+        <td><button type="button" onclick="D(9)">9</button></td>
+        <td> <button type="button" onclick="L('*')">*</button><br></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="N('C')">C</button></td>
+        <td><button type="button" onclick="D(0)">0</button></td>
+        <td><button type="button" onclick="L('/')">/</button></td>
+        <td><button type="button" value = "=" onclick="F()">=</button></td>
+
+    </tr>
+</table>
+<script>
+    function D(a) {
+        let b = document.getElementById("A");
+        b.innerHTML += parseInt(a)
+
+    }
+    function L(a) {
+        let b = document.getElementById("A");
+        b.innerHTML += a;
+        return b;
+
+    }
+    function F() {
+        var c = document.getElementById("A").innerHTML ;
+        document.getElementById("A").innerHTML=eval(c)
+
+    }
+    function N() {
+        document.getElementById("A").innerHTML="";
+    }
+
+</script>
+
+</body>
+</html>

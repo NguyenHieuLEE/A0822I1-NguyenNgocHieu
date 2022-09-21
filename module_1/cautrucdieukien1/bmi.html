@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table >
+    <tr>
+        <th>
+            Nhập cân nặng
+        </th>
+        <th>
+            Nhập chiều cao
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <input type="text" id="weight">
+        </th>
+        <th>
+            <input type="text" id="height">
+        </th>
+    </tr>
+</table>
+<button type="button" onclick="A()" > resuft </button><br>
+<p id="result" style="color: #ef0951" ></p>
+<script>
+    function A() {
+        let canNang = +parseFloat(document.getElementById('weight').value);
+        let chieuCao = +parseFloat(document.getElementById('height').value);
+        bmi = canNang / ( chieuCao ^ 2 );
+        if (bmi < 18){
+            document.getElementById("result").innerHTML = "Underweight" }
+    else if (bmi < 25.0){
+        document.getElementById("result").innerHTML = "Normal"}
+    else if (bmi < 30.0){
+            document.getElementById("result").innerHTML = "Overweight" }
+
+    else{
+            document.getElementById("result").innerHTML = "Obese" }
+    }
+</script>
+
+</body>
+</html>

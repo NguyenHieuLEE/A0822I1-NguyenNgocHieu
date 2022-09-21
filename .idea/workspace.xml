@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cb1c6e-6ca1-4e9b-b1f1-297ace5d02ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/BMI2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bmi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/hieulee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/maytinhdongian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/ngay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/cautrucdieukien1/kiemtranamnhuan.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,12 @@
       <workItem from="1663560226803" duration="3128000" />
       <workItem from="1663567101925" duration="473000" />
       <workItem from="1663567768433" duration="123000" />
-      <workItem from="1663571425408" duration="963000" />
+      <workItem from="1663571425408" duration="1002000" />
+      <workItem from="1663585009328" duration="2230000" />
+      <workItem from="1663593483386" duration="7423000" />
+      <workItem from="1663725748357" duration="2893000" />
+      <workItem from="1663746964441" duration="535000" />
+      <workItem from="1663747506788" duration="3095000" />
     </task>
     <servers />
   </component>
@@ -106,10 +117,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1663559862178">
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1663746492062">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.819@0.25.1440.819" timestamp="1663559862178" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1663656807272" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.819@0.25.1440.819" timestamp="1663746492062" />
+    <state x="385" y="171" width="670" height="677" key="search.everywhere.popup/0.25.1440.820@0.25.1440.820" timestamp="1663727038018" />
     <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.25.1440.821@0.25.1440.821" timestamp="1663335192578" />
     <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.25.1440.822@0.25.1440.822" timestamp="1662898075780" />
   </component>
