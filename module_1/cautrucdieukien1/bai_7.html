@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cước điện thoại </title>
+</head>
+<body>
+<script>
+    let noi,ngoai,giaCuoc;
+    do {
+        noi = +prompt("nhập số phút gọi nội mạng");
+        ngoai = +prompt("nhập số phút gọi ngoại mạng");
+    }while(noi<=0||ngoai<=0)
+    giaCuoc = noi * 1000 + ngoai * 2000;
+    alert("Giá cước điện thoại là:" + giaCuoc + " " + "VNĐ");
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính lãi ngân hàng</title>
+</head>
+<body>
+<script>
+        let von,thang,laiXuat;
+        do {
+            von=+prompt("nhập số vốn")
+            thang=+prompt("nhập số tháng gửi")
+        }while (von < 0 || thang < 0)
+            laiXuat= von * (0.015/365)*thang*30;
+        alert("lãi xuất ngân hàng là:"+laiXuat+"VNĐ")
+
+
+</script>
+</body>
+</html>

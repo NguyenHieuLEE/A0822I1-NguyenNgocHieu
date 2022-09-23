@@ -20,13 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cb1c6e-6ca1-4e9b-b1f1-297ace5d02ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/BMI2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bmi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/hieulee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/maytinhdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/ngay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/game/game puzzle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/love.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/BAI_211.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_212.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_29.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/cautrucdieukien1/kiemtranamnhuan.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +112,10 @@
       <workItem from="1663593483386" duration="7423000" />
       <workItem from="1663725748357" duration="2893000" />
       <workItem from="1663746964441" duration="535000" />
-      <workItem from="1663747506788" duration="3095000" />
+      <workItem from="1663747506788" duration="6969000" />
+      <workItem from="1663764178788" duration="5624000" />
+      <workItem from="1663816855622" duration="3129000" />
+      <workItem from="1663901008987" duration="3903000" />
     </task>
     <servers />
   </component>

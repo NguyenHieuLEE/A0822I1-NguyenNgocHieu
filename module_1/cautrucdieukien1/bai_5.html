@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Học lực </title>
+</head>
+<body>
+<script>
+    let kt1,kt2,giuaKi,cuoiKi,GPA;
+    kt1=+prompt("nhập điểm kt 1 ")
+    kt2=+prompt("nhập điểm kt 2 ")
+    giuaKi=+prompt("nhập điểm giữa kì ")
+    cuoiKi=+prompt("nhập điểm cuối kì ")
+    GPA=((kt1+kt2)+(giuaKi*2)+(cuoiKi*6))/10;
+    if(GPA>=9){
+        alert("HS XUẤT SẮC");
+    }
+    else if(GPA>=8){
+        alert("HS GIỎI");
+
+    }
+    else if(GPA>=6.5){
+        alert("HS KHÁ");
+
+    }
+    else if(GPA>=5){
+        alert("HS TRUNG BÌNH");
+
+    }
+    else if(GPA>=3.5){
+        alert("HS YẾU");
+
+    }
+    else{
+        alert("HS KÉM");
+
+    }
+</script>
+
+</body>
+</html>
