@@ -20,24 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cb1c6e-6ca1-4e9b-b1f1-297ace5d02ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bangcuuchuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/songuyento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_3.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_3.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_3.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_3.4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/cautrucdieukien1/love.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/love.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/vonglap2/bai_3.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/vonglap2/bai_3.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/vonglap2/bai_3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/vonglap2/bai_3.4.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +106,7 @@
       <workItem from="1664102704848" duration="5141000" />
       <workItem from="1664192701427" duration="6504000" />
       <workItem from="1664505078872" duration="266000" />
+      <workItem from="1664505635948" duration="34000" />
     </task>
     <servers />
   </component>
