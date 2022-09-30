@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng cửu chương </title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align:center;color:#0c1ca5;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align:center;color:#050505">BẢNG CỬU CHƯƠNG</h1>
+<p id = "ketQua"></p>
+<script>
+    let cuuChuong = '<table border=1 width=100%>';
+    for (let i = 1; i <=10 ; i++) {
+        cuuChuong+= '<tr>';
+        for (let j = 2; j <10 ; j++) {
+            cuuChuong+= '<td style="height: 50px; width: 100px;">' + j + 'x' + i + "=" + (i*j) + '</td>';
+        }
+        cuuChuong += '</tr>';
+    }
+    cuuChuong += "</table>"
+    document.getElementById("ketQua").innerHTML=cuuChuong;
+</script>
+</body>
+</html>

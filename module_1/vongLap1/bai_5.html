@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tổng</title>
+</head>
+<body>
+<script>
+        let n1=0,n2=1,nextNum;
+        var sum=0;
+        for(let i=0;i<20;i++) {
+            // document.write(n1 + "<br>");
+            nextNum = n1 + n2;
+            n1 = n2;
+            n2 = nextNum;
+            sum +=n1;
+    }
+        document.write(sum+ "<br>");
+
+</script>
+
+</body>
+</html>

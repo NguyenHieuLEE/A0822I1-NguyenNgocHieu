@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số nguyên tố</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let numbers;
+    numbers = +prompt("Nhập số lượng số nguyên tố");
+    let cnt = 0;
+    let nt = 2;
+
+    function soNguyenTo(n) {
+        if (n < 2){
+            return 0;
+        }
+        for (let i = 2; i <= Math.sqrt(n); i++){
+            if (n % i == 0){
+                return 0;
+            }
+        }
+        return  1;
+    }
+    while (cnt < numbers){
+        if (soNguyenTo(nt)){
+            document.write(nt + '<br>');
+            cnt++;
+        }
+        nt++;
+    }
+</script>

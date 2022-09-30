@@ -20,28 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cb1c6e-6ca1-4e9b-b1f1-297ace5d02ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/game/game puzzle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/love.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/BAI_211.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_212.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_24.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_25.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_27.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_28.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/cautrucdieukien2/bai_29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/bangcuuchuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vongLap1/songuyento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_3.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_3.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_3.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_3.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/vonglap2/bai_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/cautrucdieukien1/love.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/cautrucdieukien1/love.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +111,13 @@
       <workItem from="1663747506788" duration="6969000" />
       <workItem from="1663764178788" duration="5624000" />
       <workItem from="1663816855622" duration="3129000" />
-      <workItem from="1663901008987" duration="3903000" />
+      <workItem from="1663901008987" duration="3999000" />
+      <workItem from="1663936241711" duration="2032000" />
+      <workItem from="1663938304329" duration="1392000" />
+      <workItem from="1663939710725" duration="1656000" />
+      <workItem from="1663941376215" duration="1854000" />
+      <workItem from="1664102704848" duration="5141000" />
+      <workItem from="1664192701427" duration="6504000" />
     </task>
     <servers />
   </component>
@@ -135,11 +137,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1663746492062">
+    <state x="120" y="145" width="1200" height="582" key="dock-window-1" timestamp="1663936894454">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state x="120" y="145" width="1200" height="582" key="dock-window-1/0.25.1440.819@0.25.1440.819" timestamp="1663936894454" />
+    <state x="120" y="145" width="1200" height="582" key="dock-window-2" timestamp="1663936894455">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state x="120" y="145" width="1200" height="582" key="dock-window-2/0.25.1440.819@0.25.1440.819" timestamp="1663936894455" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1664199208579">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1663656807272" />
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.819@0.25.1440.819" timestamp="1663746492062" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.819@0.25.1440.819" timestamp="1664199208579" />
     <state x="385" y="171" width="670" height="677" key="search.everywhere.popup/0.25.1440.820@0.25.1440.820" timestamp="1663727038018" />
     <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.25.1440.821@0.25.1440.821" timestamp="1663335192578" />
     <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.25.1440.822@0.25.1440.822" timestamp="1662898075780" />
