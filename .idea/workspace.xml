@@ -27,15 +27,6 @@
       <change afterPath="$PROJECT_DIR$/module_1/case study/bai_5.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_1/case study/bai_6.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_1/case study/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_9.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_1/mảng/caro.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/module_1/mảng/td.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -140,6 +131,7 @@
       <workItem from="1664967748037" duration="6164000" />
       <workItem from="1664976428077" duration="2622000" />
       <workItem from="1665060936799" duration="1150000" />
+      <workItem from="1665109157062" duration="190000" />
     </task>
     <servers />
   </component>
