@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let luong,luongRong;
+    luong=+prompt("Nhập lương nhân viên:")
+    if(luong>=15000000){
+        luongRong=luong-luong*0.2
+    }
+    else if(luong>=7000000){
+        luongRong=luong-luong*0.1
+
+    }
+    else {
+        luongRong=luong-luong*0.05
+
+    }
+    alert("Lương nhân viên nhận được là:"+luongRong+"VNĐ")
+</script>
+</body>
+</html>

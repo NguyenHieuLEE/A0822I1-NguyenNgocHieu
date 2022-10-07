@@ -20,11 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cb1c6e-6ca1-4e9b-b1f1-297ace5d02ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/caro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/mảng/td.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/vonglap2/bai_3.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/vonglap2/bai_3.2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/vonglap2/bai_3.3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/vonglap2/bai_3.4.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -54,17 +69,29 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module_1/html" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bai_7.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/A0822I1-NguyenNgocHieu/module_1/case study/bai_7.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.bai_7.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -107,6 +134,12 @@
       <workItem from="1664192701427" duration="6504000" />
       <workItem from="1664505078872" duration="266000" />
       <workItem from="1664505635948" duration="34000" />
+      <workItem from="1664505843279" duration="470000" />
+      <workItem from="1664535445450" duration="2819000" />
+      <workItem from="1664538752426" duration="8915000" />
+      <workItem from="1664967748037" duration="6164000" />
+      <workItem from="1664976428077" duration="2622000" />
+      <workItem from="1665060936799" duration="1150000" />
     </task>
     <servers />
   </component>
@@ -126,6 +159,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="229" y="71" key="SettingsEditor" timestamp="1664546176897">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="229" y="71" key="SettingsEditor/0.25.1440.821@0.25.1440.821" timestamp="1664546176897" />
     <state x="120" y="145" width="1200" height="582" key="dock-window-1" timestamp="1663936894454">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
@@ -134,10 +171,10 @@
       <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="120" y="145" width="1200" height="582" key="dock-window-2/0.25.1440.819@0.25.1440.819" timestamp="1663936894455" />
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1664199208579">
-      <screen x="0" y="25" width="1440" height="819" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1664867863053">
+      <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1663656807272" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1664867863053" />
     <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.819@0.25.1440.819" timestamp="1664199208579" />
     <state x="385" y="171" width="670" height="677" key="search.everywhere.popup/0.25.1440.820@0.25.1440.820" timestamp="1663727038018" />
     <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.25.1440.821@0.25.1440.821" timestamp="1663335192578" />

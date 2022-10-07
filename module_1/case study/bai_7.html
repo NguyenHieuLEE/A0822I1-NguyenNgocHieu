@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num;
+    num=prompt("nhập a")
+    const a=num.toString()
+    const b=[a[0]];;
+    for(let i=1;i<=a.length;i++){
+        a[i]+=a[i+1];
+        b.push(a[i]);
+    }
+    alert(b.join(''))
+
+</script>
+</body>
+</html>

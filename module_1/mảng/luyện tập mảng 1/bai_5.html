@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a;
+    let dem =0
+    a=prompt("nhập chuỗi: ");
+
+    for(let i=0;i<a.length;i++){
+        if(a[i]=="u"||a[i]=="e"||a[i]=="o"||a[i]=="a"||a[i]=="i"||a[i]=="U"||a[i]=="E"||a[i]=="O"||a[i]=="A"||a[i]=="I"){
+            document.write(a[i])
+            dem++
+
+
+        }
+    }
+    document.write("<br>")
+    document.write("Số nguyên âm trong chuỗi:"+dem)
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+
+<body>
+<input type="text" id="tieng_anh">
+
+<input type="button" value="Dịch" onclick="dich()">
+<br><br>
+<p id="tieng_viet">
+    <script>
+        let tieng_anh = document.getElementById("tieng_anh");
+        let mangTA = ["what", "where", "how", "who", "when", "why", "how far", "how long"];
+        let mangTV = ["cái gì", "ở đâu", "làm sao", "ai", "khi nào", "tại sao", "bao xa", "bao lâu"];
+        let dem = 0;
+        function dich() {
+            for (let i = 0; i < mangTA.length; i++) {
+                if (mangTA[i] == tieng_anh.value) {
+                    dem = 0;
+                    document.getElementById("tieng_viet").innerHTML = "Vietnamese: "+mangTV[i];
+                    break;
+                } else {
+                    dem++;
+                }
+            }
+            if (dem != 0) {
+                alert("Không có dữ liệu bạn phải nhập đúng các từ cho sẵn");
+            }
+        }
+    </script>
+</body>
+
+</html>
