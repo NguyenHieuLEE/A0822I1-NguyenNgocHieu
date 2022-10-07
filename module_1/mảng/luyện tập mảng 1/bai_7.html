@@ -1,8 +1,10 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Remove V in array</title>
 </head>
 <body>
 <script>
@@ -12,15 +14,17 @@
         array[i] = +prompt('Nhập phần tử của mảng ' + i + ' of array');
     }
     let V = +prompt('Nhập phần tử cần tìm');
-    let cnt = false;
-    for (let i = 0; i < n; i++){
-        if (V == array[i]){
-            document.write('V is in the array');
-            cnt = true;
+    for (let i = 0; i < n; i++) {
+        if (V == array[i]) {
+            array[i] = 0;
+            for (let j = i; j < n - 1; j++) {
+                let temp = array[j];
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
+            }
+
+            document.write('Mảng sau khi xoá ' + V + array);
         }
-    }
-    if (cnt == false){
-        document.write('V is not in the array');
     }
 </script>
 </body>
