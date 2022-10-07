@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Replace character</title>
 </head>
 <body>
 <script>
-    let kiTu=prompt('Nhập chuỗi kí tự');
-    // let cnt=false;
-    for(let i=0;i<kiTu.length;i++){
-        if(kiTu[i]==='-'){
-            kiTu[i]='_';
+    let n = +prompt("Nhập số kí tự trong chuỗi");
+    let kiTu = [];
+    for (let i = 0; i < n; i++){
+        kiTu[i] = prompt("Kí tự thứ " + i + " của chuỗi");
+    }
+    for (let i = 0; i < n; i++){
+        if (kiTu[i] === "-"){
+            kiTu[i] = "_";
         }
     }
-    document.write('Dãy kí tự sau khi nhập là: '+kiTu)
+    alert("Chuỗi thay thế: " + kiTu);
+
 </script>
 </body>
 </html>

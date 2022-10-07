@@ -6,12 +6,14 @@
 </head>
 <body>
 <script>
-    let chuoi='asdfghjklzxcvbnm';
-    let dem=0;
-    for(let i=0;i<chuoi.length;i++){
-        dem++;
+    let tu = 'anh yeu em';
+    let dem=1;
+    for(let i=0;i<tu.length;i++){
+        if(tu[i]===' '){
+            dem++
+        }
     }
-    document.write(chuoi+'<br>');
+    document.write(tu+'<br>');
     document.write('Số từ trong chuỗi là: '+dem)
 </script>
 </body>
