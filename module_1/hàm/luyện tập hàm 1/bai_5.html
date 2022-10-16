@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputStar = prompt("Nhập tên ngôi sao");
+    let star = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let constel = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+    function starConstel(str) {
+        let index;
+        for (let i = 0; i < str.length; i++) {
+            if (inputStar == str[i]){
+                index = i;
+            }
+        }
+        return index;
+    }
+    for (let i = 0; i < constel.length; i++){
+        if (i == starConstel(star)){
+            alert("Tên chòm sao ứng với ngôi sao đó : " + constel[i]);
+        }
+    }
+</script>
+</body>
+</html>

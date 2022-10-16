@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let changer=+prompt('Nhập lựa chọn (1: Feet To Meter;2: Meter To Feet ');
+    switch(changer) {
+        case 1:
+        let feet = +prompt('Nhập giá trị feet cần đổi sang meter')
+        function feetToMeter(feet) {
+            let meter;
+            meter = 0.305 * feet;
+            return meter;
+        }
+            alert('Feet To Meter: ' + feetToMeter(feet));
+        break;
+        case 2:
+        let meter = +prompt('Nhập giá trị meter cần đổi sang feet')
+        function meterToFeet(meter) {
+            let feet;
+            feet = 3.279 * meter;
+            return feet;
+        }
+
+            alert('Meter To Feet: ' + meterToFeet(meter));
+        break;
+    }
+</script>
+</body>
+</html>

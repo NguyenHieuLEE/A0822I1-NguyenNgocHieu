@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập số kí tự");
+    let num = [];
+    for (let i = 0; i < n; i++){
+        num[i] = prompt("Kí tự thứ " + i + " của chuỗi");
+    }
+    function change2(arr) {
+        // arr.reverse();
+        for(let i=0;i<num.length/2;i++){
+            let temp = arr[i]
+            arr[i]=arr[num.length-i-1];
+            arr[num.length-i-1]= temp;
+        }
+    }
+    change2(num);
+    alert(num)
+</script>
+</body>
+</html>

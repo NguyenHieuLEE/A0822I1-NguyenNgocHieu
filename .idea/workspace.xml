@@ -20,10 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cb1c6e-6ca1-4e9b-b1f1-297ace5d02ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module_1/bienKieuDuLieuToanTu/bt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/bienKieuDuLieuToanTu/bt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/feetandmeter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyentapham2/bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyện tập hàm 1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyện tập hàm 1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyện tập hàm 1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/luyện tập hàm 1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/hàm/songuyento.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/mảng/luyện tập mảng 2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/mảng/luyện tập mảng 2/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/mảng/luyện tập mảng 2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/mảng/luyện tập mảng 2/bai_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/mảng/luyện tập mảng 2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/mảng/luyện tập mảng 2/bai_7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +142,24 @@
       <workItem from="1665060936799" duration="1150000" />
       <workItem from="1665109157062" duration="190000" />
       <workItem from="1665109551982" duration="832000" />
-      <workItem from="1665140538602" duration="8121000" />
+      <workItem from="1665140538602" duration="9630000" />
+      <workItem from="1665152124340" duration="242000" />
+      <workItem from="1665212249453" duration="827000" />
+      <workItem from="1665390153504" duration="236000" />
+      <workItem from="1665405795006" duration="540000" />
+      <workItem from="1665572737580" duration="1807000" />
+      <workItem from="1665574621523" duration="1791000" />
+      <workItem from="1665576437216" duration="1794000" />
+      <workItem from="1665578258438" duration="1803000" />
+      <workItem from="1665580103956" duration="1522000" />
+      <workItem from="1665581937103" duration="1014000" />
+      <workItem from="1665582957431" duration="758000" />
+      <workItem from="1665639080010" duration="1743000" />
+      <workItem from="1665640940961" duration="1728000" />
+      <workItem from="1665642763717" duration="1720000" />
+      <workItem from="1665644579661" duration="949000" />
+      <workItem from="1665746083952" duration="984000" />
+      <workItem from="1665889395399" duration="1780000" />
     </task>
     <servers />
   </component>
@@ -147,9 +179,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="229" y="71" key="SettingsEditor" timestamp="1664546176897">
-      <screen x="0" y="25" width="1440" height="821" />
+    <state x="229" y="71" key="SettingsEditor" timestamp="1665582666104">
+      <screen x="0" y="25" width="1440" height="818" />
     </state>
+    <state x="229" y="71" key="SettingsEditor/0.25.1440.818@0.25.1440.818" timestamp="1665582666104" />
     <state x="229" y="71" key="SettingsEditor/0.25.1440.821@0.25.1440.821" timestamp="1664546176897" />
     <state x="120" y="145" width="1200" height="582" key="dock-window-1" timestamp="1663936894454">
       <screen x="0" y="25" width="1440" height="819" />
@@ -159,10 +192,10 @@
       <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="120" y="145" width="1200" height="582" key="dock-window-2/0.25.1440.819@0.25.1440.819" timestamp="1663936894455" />
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1665148788786">
-      <screen x="0" y="25" width="1440" height="819" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1665890687695">
+      <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1664867863053" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1665890687695" />
     <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.819@0.25.1440.819" timestamp="1665148788786" />
     <state x="385" y="171" width="670" height="677" key="search.everywhere.popup/0.25.1440.820@0.25.1440.820" timestamp="1663727038018" />
     <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.25.1440.821@0.25.1440.821" timestamp="1663335192578" />

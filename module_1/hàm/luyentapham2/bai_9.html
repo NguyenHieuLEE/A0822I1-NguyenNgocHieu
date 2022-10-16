@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = prompt('Nhập vào một chuỗi');
+    let V = prompt('Nhập kí tự cần tìm');
+    function check(a,b) {
+        let count=0;
+        for (let i = 0; i < a.length; i++) {
+            if (b == a[i]) {
+                count++;
+            }
+        }
+        return count;
+    }
+    if(check(array,V)>=1){
+        document.write(check(array,V));
+    }else{
+        document.write('-1')
+    }
+</script>
+</body>
+</html>
