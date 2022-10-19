@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500" height="600"></canvas>
+<script>
+    class Circle{
+        constructor(radius,color){
+            this.radius=radius;
+            this.color=color;
+        }
+        getRadius(){
+            return this.radius;
+        }
+        getArea(){
+            let P=this.radius*this.radius*Math.PI;
+            return P;
+        }
+    }function input(){
+        let radius=+prompt('Nhap ban kinh: ');
+        let color=prompt('Nhap mau sac: ');
+        let arr1=[radius,color]
+        return arr1;
+    }
+    let arr2= input()
+    let circle1 = new Circle(arr2[0],arr2[1]);
+    console.log('Ban kinh la: '+circle1.getRadius()+'</br>')
+    console.log('Dien tich la: '+circle1.getArea()+'</br>')
+    let c = document.getElementById("myCanvas");
+    let ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,circle1.getRadius(),0,2*Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = circle1.color;
+    ctx.fill();
+</script>
+</body>
+</html>

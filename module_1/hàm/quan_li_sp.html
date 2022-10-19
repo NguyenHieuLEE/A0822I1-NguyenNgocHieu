@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="sanPham" placeholder="Nhập tên sản phẩm">
+<input type="button" id="btn-add" value="Thêm mới" onclick="themMoi()"><br>
+<span>Số lượng sản phẩm:  </span><span id="soLuong"></span>
+<div id="hienThi"></div>
+<script>
+    let danhSachSP =["Iphone","Samsung","Oppo"];
+    hienThi(danhSachSP);
+    function hienThi(danhSach){
+        let tableString='<table border = "1px">'+
+        '<tr>\n' +
+        '        <th>STT</th>\n' +
+        '        <th>Tên</th>\n' +
+        '        <th>Sửa</th>\n' +
+        '        <th>Xoá</th>\n' +
+        '    </tr>';
+        for(let i=0;i<danhSachSP.length;i++){
+            tableString+='<tr>\n' +
+                '        <td>'+(i+1)+'</td>\n' +
+                '        <td>'+danhSachSP[i]+'</td>\n' +
+                '        <td><input type="button" onclick="suaSanPham('+i+')" value="Sửa"></td>\n' +
+                '        <td><input type="button" onclick="xoaSanPham('+i+')" value="Xoá"></td>\n' +
+                '    </tr>';
+        }
+        tableString+='</table>';
+        document.getElementById("hienThi").innerHTML=tableString;
+        document.getElementById("soLuong").innerHTML=danhSachSP.length;
+    }
+    function suaSanPham(index) {
+        let editSanPham = prompt("Hãy nhập tên sản phẩm mới",danhSachSP[index]);
+        danhSachSP[index] = editSanPham;
+        hienThi(danhSachSP);
+    }
+    function xoaSanPham(index) {
+        let xacNhanXoa = confirm("Bạn có muốn xoá sản phẩm "+ danhSachSP[index] +"???")
+        if (xacNhanXoa){
+            danhSachSP.splice(index,1);
+        }
+        hienThi(danhSachSP);
+    }
+    function themMoi(){
+        let sanPhamMoi=document.getElementById("sanPham").value;
+        if (sanPhamMoi!=""){
+            danhSachSP.push(sanPhamMoi);
+        }else {
+            alert("Yêu cầu nhập sản phẩm");
+        }
+        hienThi(danhSachSP);
+    }
+</script>
+</body>
+</html>

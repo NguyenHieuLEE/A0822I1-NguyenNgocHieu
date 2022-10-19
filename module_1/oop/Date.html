@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Date{
+        constructor(date,month,year){
+            this.date = date;
+            this.month = month;
+            this.year = year;
+        }
+        getDate(){
+            return this.date;
+        }
+        getMonth(){
+            return this.month;
+        }
+        getYear(){
+            return this.year;
+        }
+    //     setDate(date){
+    //         this.date=date;
+    //     }
+    //     setMonth(month){
+    //         this.month=month;
+    //     }
+    //     setYear(year){
+    //         this.year=year;
+    //     }
+    }
+    // function input(){
+    //     let date=+prompt('Nhap ngày: ');
+    //     let month=+prompt('Nhap thang: ');
+    //     let year=+prompt('Nhap nam: ');
+    //     let a=[date,month,year]
+    //     return a;
+    // }
+    // let b = input();
+    // let date1 = new Date(b[0],b[1],b[2]);
+    let date1 = new Date(1,1,1900);
+    let date2 = new Date(1,12,9999);
+    // date1.setDate(2);
+    // date1.setMonth(2);
+    // date1.setYear(2007);
+    document.write('Ngày là: '+date1.getDate()+'</br>'+'Tháng là: '+date1.getMonth()+'</br>'+'Năm là: '+date1.getYear()+'<br>')
+    document.write('Ngày là: '+date2.getDate()+'</br>'+'Tháng là: '+date2.getMonth()+'</br>'+'Năm là: '+date2.getYear()+'</br>')
+    // document.write('Ngày là: '+date1.setDate()+'</br>'+'Tháng là: '+date1.setMonth()+'</br>'+'Năm là: '+date1.setYear()+'</br>')
+</script>
+</body>
+</html>

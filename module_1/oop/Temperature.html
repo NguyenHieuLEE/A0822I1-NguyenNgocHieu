@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TEMPERATURE</title>
+</head>
+<body>
+<script>
+    let C;
+    do{
+        C=+prompt('Nhap do C: ');
+    }while(C<-273)
+    class NhietDo{
+        constructor(doC) {
+            this.doC=doC;
+        }
+        doF(){
+            let F=this.doC*1.8+32;
+            return F;
+        }
+        doKevin(){
+            let K=this.doC+273;
+            return K;
+        }
+        getDoC(){
+            return this.doC;
+        }
+    }
+    function input(){
+        let doC=C;
+        return doC;
+    }
+    let arr= input()
+    let nhietDo1=new NhietDo(arr)
+    document.write('Do C la: '+nhietDo1.getDoC()+'</br>')
+    document.write('Do F la: '+nhietDo1.doF()+'</br>')
+    document.write('Do Kevin la: '+nhietDo1.doKevin())
+</script>
+</body>
+</html>

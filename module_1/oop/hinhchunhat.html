@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500" height="600"></canvas>
+<script>
+    class Rectangle{
+        constructor(width,height) {
+            this.width=width;
+            this.height=height;
+        }
+        area(){
+           let S=this.width*this.height;
+            return S;
+        }
+        perimeter(){
+            let P=(this.width+this.height)*2;
+            return P;
+        }
+        getWidth(){
+            return this.width;
+        }
+        getHeight(){
+            return this.height;
+        }
+
+    }
+    function input(){
+        let width=+prompt('Nhap chieu dai: ');
+        let height=+prompt('Nhap chieu rong: ');
+        let arr1=[width,height]
+        return arr1;
+    }
+    let arr2= input()
+    let rectangle1=new Rectangle(arr2[0],arr2[1])
+    console.log('Chieu dai la: '+rectangle1.getWidth()+'</br>Chieu rong la: '+rectangle1.getHeight()+'</br>')
+    console.log('Dien tich la: '+rectangle1.area()+'</br>')
+    console.log('Chu vi la: '+rectangle1.perimeter())
+    var canvas = document.getElementById("myCanvas");
+    if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+        ctx.lineWidth = "3";
+        ctx.strokeStyle = "red";
+        ctx.strokeRect(5,5,rectangle1.getWidth(),rectangle1.getHeight());
+    }
+</script>
+</body>
+</html>
