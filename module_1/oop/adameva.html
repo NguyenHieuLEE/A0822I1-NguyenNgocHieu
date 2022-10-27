@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam and Eva</title>
+</head>
+<body>
+<script>
+    let appleWeigth;
+    do{
+        appleWeigth=+prompt('Nhap so kg tao: ');
+    }while(appleWeigth<=0)
+    class Apple{
+        constructor(weight) {
+            this.weight = weight;
+        }
+        getWeight(){
+            return this.weight;
+        }
+    }
+    class Human{
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+        getWeight(){
+            return this.weight;
+        }
+        say(text){
+            console.log(text);
+        }
+        eat(apple){
+            if(apple.weight > 0){
+                apple.weight--;
+                this.weight++;
+                this.say("Măm măm,"+this.name+" ngon quá");
+            }else{
+                this.say("Làm gì còn táo mà ăn?");
+            }
+            console.log(this.weight);
+        }
+    }
+    function input(){
+        let apple=appleWeigth;
+        return apple;
+    }
+    let apples= input()
+    let apple1 = new Apple(apples);
+    let adam = new Human("adam", "male", 50);
+    let eva = new Human("eva", "female", 40);
+    for(let i=1; i<apples; i++){
+        adam.eat(apple1);
+        eva.eat(apple1);
+    }
+    console.log("khối lượng táo còn: "+apple1.getWeight()+" Không còn đâu mà ăn");
+
+</script>
+</body>
+</html>

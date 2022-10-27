@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cb1c6e-6ca1-4e9b-b1f1-297ace5d02ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_1/hàm/quan_li_sp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/oop/Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/oop/Temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/oop/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/oop/hinhchunhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/oop/hinhtro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/oop/adameva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/oop/cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/oop/quanlisp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/oop/switchled.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/hàm/feetandmeter.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/hàm/feetandmeter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/oop/hinhtro.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/oop/hinhtron.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -167,7 +165,27 @@
       <workItem from="1666183345467" duration="550000" />
       <workItem from="1666183900297" duration="1232000" />
       <workItem from="1666185157069" duration="1739000" />
-      <workItem from="1666186999768" duration="1201000" />
+      <workItem from="1666186999768" duration="1731000" />
+      <workItem from="1666354861755" duration="1640000" />
+      <workItem from="1666356680281" duration="1761000" />
+      <workItem from="1666358451482" duration="22000" />
+      <workItem from="1666358493289" duration="1782000" />
+      <workItem from="1666360311535" duration="1776000" />
+      <workItem from="1666603209461" duration="105000" />
+      <workItem from="1666676765981" duration="1715000" />
+      <workItem from="1666678583707" duration="1791000" />
+      <workItem from="1666680407925" duration="1908000" />
+      <workItem from="1666686568683" duration="1791000" />
+      <workItem from="1666776295581" duration="587000" />
+      <workItem from="1666782354042" duration="2004000" />
+      <workItem from="1666786226222" duration="1004000" />
+      <workItem from="1666788073986" duration="1788000" />
+      <workItem from="1666789927851" duration="1790000" />
+      <workItem from="1666791746277" duration="1805000" />
+      <workItem from="1666793613827" duration="47000" />
+      <workItem from="1666793665493" duration="181000" />
+      <workItem from="1666796337088" duration="1652000" />
+      <workItem from="1666798154610" duration="1079000" />
     </task>
     <servers />
   </component>
@@ -187,10 +205,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="229" y="71" key="SettingsEditor" timestamp="1665582666104">
+    <state x="229" y="71" key="SettingsEditor" timestamp="1666786425442">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="229" y="71" key="SettingsEditor/0.25.1440.818@0.25.1440.818" timestamp="1665582666104" />
+    <state x="229" y="71" key="SettingsEditor/0.25.1440.818@0.25.1440.818" timestamp="1666786425442" />
     <state x="229" y="71" key="SettingsEditor/0.25.1440.821@0.25.1440.821" timestamp="1664546176897" />
     <state x="120" y="145" width="1200" height="582" key="dock-window-1" timestamp="1663936894454">
       <screen x="0" y="25" width="1440" height="819" />
@@ -200,10 +218,14 @@
       <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="120" y="145" width="1200" height="582" key="dock-window-2/0.25.1440.819@0.25.1440.819" timestamp="1663936894455" />
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1666186931731">
+    <state x="420" y="30" width="599" height="807" key="find.popup" timestamp="1666787934979">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1666186931731" />
+    <state x="420" y="30" width="599" height="807" key="find.popup/0.25.1440.818@0.25.1440.818" timestamp="1666787934979" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1666798738829">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1666798738829" />
     <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.819@0.25.1440.819" timestamp="1665148788786" />
     <state x="385" y="171" width="670" height="677" key="search.everywhere.popup/0.25.1440.820@0.25.1440.820" timestamp="1663727038018" />
     <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.25.1440.821@0.25.1440.821" timestamp="1663335192578" />
