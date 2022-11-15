@@ -16,12 +16,35 @@
     for (let j = 0; j < m; j++){
         b[j] = prompt("Kí tự thứ " + j + " của chuỗi");
     }
-    for (let i = 0; i < n; i++){
-        for (let j = 0; j < m; j++){
-            if(a===b)
+    let bdem=0;
+    let k=[];
+    for (let i=0;i<n;i++)
+    {
+        let dem =0;
+        for (let j=0;j<m;j++)
+        {
+            if (a[i]==b[j])
+            {
+                dem++;
+            }
+        }
+        if (dem==0)
+        {
+            k[i]=a[i];
+            bdem++;
         }
     }
-
+    for (let i=0;i<bdem;i++)
+    {
+        let temp=0;
+        if (k[i]>k[i+1])
+        {
+            temp=k[i+1];
+            k[i+1]=k[i];
+            k[i]=temp;
+        }
+        document.write(k[i]);
+    }
 </script>
 </body>
 </html>

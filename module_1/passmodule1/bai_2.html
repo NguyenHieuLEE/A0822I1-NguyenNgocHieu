@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function reverse_num(n){
+        n = n.toString()
+        return n.split("").reverse().join("");
+    }
+    function symmetrical_num(n){
+        let flag =0;
+        if (reverse_num(n) == n) flag = 1;
+        return flag;
+    }
+    let n= prompt(" Nhap chuoi ");
+    let check = symmetrical_num(n);
+    if( check == 1 ) console.log(n + " la chuoi doi xung");
+    else console.log(n + " khong phai la chuoi doi xung");
+</script>
+</body>
+</html>

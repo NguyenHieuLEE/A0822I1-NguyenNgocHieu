@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-     let num = +prompt("nhập vào môt số");
+     let num = +prompt("nhập vào môt chuỗi số");
      function isPrime3(n) {
          if (n < 2) {
              alert("số bạn vừa nhập không phải là số nguyên tố");
@@ -19,7 +19,7 @@
                  }
              }
              if (check){
-                 alert("số bạn vừa nhập là số nguyên tố");
+                 document.write(num);
              }else {
                  alert("số bạn vừa nhập không phải là số nguyên tố")
              }

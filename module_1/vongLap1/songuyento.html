@@ -9,27 +9,25 @@
 </body>
 </html>
 <script>
-    let numbers;
-    numbers = +prompt("Nhập số lượng số nguyên tố");
+    let n = +prompt("Nhập số kí tự trong chuỗi");
+    let kiTu = [];
+    for (let i = 0; i < n; i++){
+        kiTu[i] = prompt("Kí tự thứ " + i + " của chuỗi");
+    }
     let cnt = 0;
-    let nt = 2;
 
     function soNguyenTo(n) {
         if (n < 2){
             return 0;
         }
         for (let i = 2; i <= Math.sqrt(n); i++){
-            if (n % i == 0){
+            if (kiTu[i] % i == 0){
                 return 0;
             }
         }
         return  1;
     }
-    while (cnt < numbers){
-        if (soNguyenTo(nt)){
-            document.write(nt + '<br>');
-            cnt++;
-        }
-        nt++;
+    while (cnt < n){
+            document.write(kiTu+ '<br>');
     }
 </script>

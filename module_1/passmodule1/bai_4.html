@@ -7,14 +7,16 @@
 <body>
 <input type="text" id="idProduct" placeholder="Nhập id sản phẩm">
 <input type="text" id="nameProduct" placeholder="Nhập tên sản phẩm">
+<input type="text" id="madeProduct" placeholder="Nhập hảng sản xuất">
 <input type="text" id="primeProduct" placeholder="Nhập giá sản phẩm">
 <input type="button" id="btn-add" value="Addproduct" onclick="add()"><br>
 <div id="display"></div>
 <script>
     class Product {
-        constructor(id, name,price) {
+        constructor(id, name,made,price) {
             this.id = id;
             this.name = name;
+            this.made=made
             this.price = price;
         }
         setId(id) {
@@ -22,6 +24,9 @@
         }
         setName(name) {
             this.name = name;
+        }
+        setMade(made) {
+            this.made = made;
         }
         setPrice(price) {
             this.price = price;
@@ -32,13 +37,16 @@
         getName() {
             return this.name;
         }
+        getMade() {
+            return this.made;
+        }
         getPrice() {
             return this.price;
         }
     }
-    let product1 = new Product(1, "sam sung", 1000);
-    let product2 = new Product(2, "nokia", 1000);
-    let product3 = new Product(3, "iphone", 1000);
+    let product1 = new Product(1, "sam sung","samsung", 1000);
+    let product2 = new Product(2, "nokia","nokia", 1000);
+    let product3 = new Product(3, "iphone","apple", 1000);
     let products = [product1, product2, product3];
     display(products);
     function display(products) {
@@ -47,66 +55,37 @@
             '        <th>STT</th>\n' +
             '        <th>ID</th>\n' +
             '        <th>Name</th>\n' +
+            '        <th>Made</th>\n' +
             '        <th>Price</th>\n' +
-            '        <th>Delete</th>\n' +
-            '        <th>Change</th>\n' +
             '    </tr>';
         for (let i = 0; i < products.length; i++) {
             data += '<tr>\n' +
                 '        <td>' + (i + 1) + '</td>\n' +
                 '        <td>' + products[i].getId() + '</td>\n' +
                 '        <td>' + products[i].getName() + '</td>\n' +
+                '        <td>' + products[i].getMade() + '</td>\n' +
                 '        <td>' + products[i].getPrice() + '</td>\n' +
-                '        <td><input type="button" value="Delete" onclick="deleteProduct(' + i + ')"></td>\n' +
-                '        <td><input type="button" value="Change" onclick="changeProduct(' + i + ')"></td>\n' +
                 '    </tr>';
         }
         data += '</table>';
         document.getElementById("display").innerHTML = data;
     }
-
-    function deleteProduct(index) {
-        let isDelete = confirm("Bạn có muốn xoá sản phẩm " + products[index].getName());
-        if (isDelete) {
-            products.splice(index, 1);
-        }
-        display(products);
-    }
-    function changeProduct(index) {
-        let newProduct= new Product();
-        newProduct.setId(prompt("Hãy nhập id sản phẩm mới"));
-        newProduct.setName(prompt("Hãy nhập tên sản phẩm mới"));
-        newProduct.setPrice(prompt("Hãy nhập giá sản phẩm mới"));
-        if ( newProduct.getName()!=""&&newProduct.getId()!=""&&newProduct.getPrice()!=""
-            &&Number.isInteger(+newProduct.getId())&&Number.isInteger(+newProduct.getPrice())
-        ){
-            if(isNaN(parseInt (newProduct.getName()))){
-                products[index]=newProduct;
-            }else {
-
-                alert("Yêu cầu thay đổi lại sản phẩm");
-            }
-        }else {
-            alert("Yêu cầu thay đổi1  lại sản phẩm");
-        }
-
-        display(products);
-    }
     function add(){
         let insertProduct=new Product;
         insertProduct.setId( document.getElementById("idProduct").value)
         insertProduct.setName(document.getElementById("nameProduct").value)
+        insertProduct.setMade(document.getElementById("madeProduct").value)
         insertProduct.setPrice(document.getElementById("primeProduct").value)
-        if ( insertProduct.getName()!=""&&insertProduct.getId()!=""&&insertProduct.getPrice()!=""
-        &&Number.isInteger(+insertProduct.getId())&&Number.isInteger(+insertProduct.getPrice())
-            ){
-            if(isNaN(parseInt (insertProduct.getName()))){
+        if ( insertProduct.getName()!=""&&insertProduct.getId()!=""&&insertProduct.getPrice()!=""&&insertProduct.getMade()!=""
+            &&Number.isInteger(+insertProduct.getId())&&Number.isInteger(+insertProduct.getPrice())
+        ){
+            if(isNaN(parseInt (insertProduct.getName()))&&  isNaN(parseInt (insertProduct.getMade()))){
                 products.push(insertProduct)
             }else {
 
                 alert("Yêu cầu nhập lại sản phẩm");
             }
-            }else {
+        }else {
             alert("Yêu cầu nhập lại sản phẩm");
         }
         display(products);

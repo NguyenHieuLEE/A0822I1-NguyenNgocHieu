@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập số kí tự trong mảng a và b");
+    let a = [];
+    for (let i = 0; i < n; i++){
+        a[i] = +prompt("Kí tự thứ " + i + " của mảng a");
+    }
+    let b = [];
+    for (let j = 0; j < n; j++){
+        b[j] = +prompt("Kí tự thứ " + j + " của mảng b");
+    }
+    let sum = 0;
+    for (let i=0;i<n;i++) {
+            if ((i<n-1)&&(a[i] / b[i])>(a[i+1] / b[i+1])) {
+                sum=(a[i] / b[i]);
+            }else{
+                sum=(a[i+1] / b[i+1]);
+            }
+    }
+    document.write('chỉ số của phân số lớn nhất '+sum)
+</script>
+</body>
+</html>

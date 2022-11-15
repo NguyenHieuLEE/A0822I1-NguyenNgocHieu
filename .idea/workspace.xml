@@ -20,12 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4cb1c6e-6ca1-4e9b-b1f1-297ace5d02ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_1/oop/adameva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/oop/cat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/oop/quanlisp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_1/oop/switchled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/case study/bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/passmodule1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/passmodule1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/passmodule1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_1/passmodule1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/module_2/src/ss01_introduce_java/practice/currency_converter/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/module_2/src/ss01_introduce_java/practice/hello/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/module_2/src/ss01_introduce_java/practice/number_text/NumberText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/module_2/src/ss01_introduce_java/practice/system_time/SystemTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1/oop/hinhtro.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/oop/hinhtron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/case study/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/case study/bai_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/hàm/songuyento.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/hàm/songuyento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/oop/quanlisp.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/oop/quanlisp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1/vongLap1/songuyento.html" beforeDir="false" afterPath="$PROJECT_DIR$/module_1/vongLap1/songuyento.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +73,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -186,6 +197,34 @@
       <workItem from="1666793665493" duration="181000" />
       <workItem from="1666796337088" duration="1652000" />
       <workItem from="1666798154610" duration="1079000" />
+      <workItem from="1666837857549" duration="306000" />
+      <workItem from="1667214746686" duration="1570000" />
+      <workItem from="1667216571613" duration="1716000" />
+      <workItem from="1667218382110" duration="1664000" />
+      <workItem from="1667220286275" duration="1615000" />
+      <workItem from="1667222259523" duration="1438000" />
+      <workItem from="1667224200724" duration="1109000" />
+      <workItem from="1667290231245" duration="278000" />
+      <workItem from="1667375791835" duration="1110000" />
+      <workItem from="1667387348916" duration="106000" />
+      <workItem from="1667387458620" duration="1196000" />
+      <workItem from="1667388699096" duration="439000" />
+      <workItem from="1667389213983" duration="1753000" />
+      <workItem from="1667391032969" duration="1789000" />
+      <workItem from="1667392844935" duration="1859000" />
+      <workItem from="1667395670909" duration="1689000" />
+      <workItem from="1667397482343" duration="1342000" />
+      <workItem from="1667822151381" duration="1714000" />
+      <workItem from="1667823983097" duration="1788000" />
+      <workItem from="1667825796447" duration="1780000" />
+      <workItem from="1667827610358" duration="1793000" />
+      <workItem from="1667829427415" duration="1141000" />
+      <workItem from="1667831386020" duration="793000" />
+      <workItem from="1667890372215" duration="1757000" />
+      <workItem from="1667893197792" duration="1333000" />
+      <workItem from="1668059189174" duration="68000" />
+      <workItem from="1668059550567" duration="1223000" />
+      <workItem from="1668424957504" duration="588000" />
     </task>
     <servers />
   </component>
@@ -205,6 +244,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="467" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1667390801393">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="467" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.818@0.25.1440.818" timestamp="1667390801393" />
     <state x="229" y="71" key="SettingsEditor" timestamp="1666786425442">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
@@ -222,10 +265,10 @@
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="420" y="30" width="599" height="807" key="find.popup/0.25.1440.818@0.25.1440.818" timestamp="1666787934979" />
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1666798738829">
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup" timestamp="1667393865693">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1666798738829" />
+    <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1667393865693" />
     <state x="385" y="171" width="670" height="675" key="search.everywhere.popup/0.25.1440.819@0.25.1440.819" timestamp="1665148788786" />
     <state x="385" y="171" width="670" height="677" key="search.everywhere.popup/0.25.1440.820@0.25.1440.820" timestamp="1663727038018" />
     <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.25.1440.821@0.25.1440.821" timestamp="1663335192578" />

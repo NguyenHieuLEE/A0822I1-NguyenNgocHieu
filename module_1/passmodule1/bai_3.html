@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPrime(n){
+        let flag = 1;
+        if (n <2) {
+            return flag = 0;
+        }
+        let i = 2;
+        while(i <n){
+            if( n%i==0 ) {
+                flag = 0;
+                break;
+            }
+            i++;
+        }
+
+        return flag;
+    }
+
+    let n = +prompt("Nhập số phần tử của mảng");
+    let array = [];
+    for (let i = 0; i < n; i++){
+        array[i] = prompt('Nhập phần tử thứ ' + i + ' của mảng');
+    }
+    let result = [];
+    for (let i = 0; i < array.length; i++){
+        if (isPrime(array[i]) == 1)  result.push( array[i] );
+    }
+    document.write('Các số nguyên tố bạn đã nhập: '+result+'</br>');
+
+    result.sort(function(a, b) {
+        return b - a;
+    });
+
+    result.sort(function(a, b) {
+        return a - b;
+    });
+
+    document.write('Các số nguyên tố bạn đã được sắp xếp tăng dần: '+result);
+</script>
+</body>
+</html>
