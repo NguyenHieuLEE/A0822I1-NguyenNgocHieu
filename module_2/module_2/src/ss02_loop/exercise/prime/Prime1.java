@@ -1,6 +1,6 @@
 package ss02_loop.exercise.prime;
 import java.util.Scanner;
-public class prime1 {
+public class Prime1 {
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.print("Nhập n = ");

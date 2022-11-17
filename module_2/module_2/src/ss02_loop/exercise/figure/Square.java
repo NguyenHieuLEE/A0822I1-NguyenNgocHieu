@@ -1,11 +1,11 @@
 package ss02_loop.exercise.figure;
-public class triangle1 {
+public class Square {
     public static void main(String[] args){
-        for(int i=0;i<=5;i++){
-            for(int j=0;j<i;j++) {
+        for(int i=0;i<3;i++){
+            for(int j=0;j<7;j++) {
                 System.out.print("* ");
             }
-            System.out.print("\n");
+                System.out.print("\n");
         }
     }
 }

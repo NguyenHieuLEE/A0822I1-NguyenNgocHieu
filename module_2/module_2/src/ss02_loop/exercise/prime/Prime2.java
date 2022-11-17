@@ -1,5 +1,5 @@
 package ss02_loop.exercise.prime;
-public class prime2 {
+public class Prime2 {
     public static void main(String[] args) {
         int n = 100;
         System.out.printf("Tất cả các số nguyên tố nhỏ hơn 100 là: \n");
