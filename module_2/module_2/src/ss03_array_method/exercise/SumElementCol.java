@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class SumElementCol {
     public static void main(String[] args) {
-        System.out.println("Tổng một cột là: " + Sum());
+        System.out.println("Tổng một cột là: " + isSum());
     }
-    public static int Sum() {
+    public static int isSum() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số hàng:  ");
         int n = scanner.nextInt();

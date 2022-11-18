@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class SumTwoLine {
     public static void main(String[] args) {
-        System.out.println("Tổng hai đường chéo là: " + Sum());
+        System.out.println("Tổng hai đường chéo là: " + isSum());
     }
 
-    public static int Sum() {
+    public static int isSum() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số hàng, số cột: ");
         int n = scanner.nextInt();
