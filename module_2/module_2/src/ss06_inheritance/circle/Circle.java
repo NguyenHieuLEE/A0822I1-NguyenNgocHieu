@@ -3,8 +3,8 @@ package ss06_inheritance.circle;
 public class Circle {
     double r;
     String color;
-
-    public Circle(double r, String color) {
+    public Circle() { }
+    public  Circle(double r, String color) {
         this.r = r;
         this.color = color;
     }
@@ -24,8 +24,7 @@ public class Circle {
     public void setColor(String color) {
         this.color = color;
     }
-    public double Area(double S){
-        S=3.14*r*r;
-        return S;
+    public double Area(){
+        return 3.14*r*r;
     }
 }
