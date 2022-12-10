@@ -12,7 +12,7 @@ public class ElementCount {
         System.out.print("Nhập chuỗi kí tự là số: ");
         String str= scanner.nextLine();
         int m=str.length();
-        System.out.println("Số phần tử trong chuỗilà: "+m);
+        System.out.println("Số phần tử trong chuỗi là: "+m);
         char[] a = str.toCharArray();
         System.out.println(Arrays.toString(a));
         System.out.print("Nhập phần tử cần đếm ");

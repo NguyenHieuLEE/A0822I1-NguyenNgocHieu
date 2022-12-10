@@ -38,7 +38,7 @@ public class Facility {
         this.address = address;
     }
     public String toString() {
-        return "Customer{" +
+        return "Facility{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
