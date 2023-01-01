@@ -1,25 +1,25 @@
-package ss12_arrayList.service.impl;
+package ss09_mvc.service.impl;
 
-import ss12_arrayList.model.Product;
-import ss12_arrayList.service.IProductService;
+import ss09_mvc.model.Employee;
+import ss09_mvc.service.IEmployeeService;
 
 import java.util.Scanner;
 
-public class PtoductService implements IProductService {
-    private static Product[] products = new Product[100];
+public class EmployeeService implements IEmployeeService {
+    private static Employee[]  employees= new Employee[100];
 
     static {
-        products[0] = new Product(1, "iphone14", 1000);
-        products[1] = new Product(2, "iphone14promax", 1500);
-        products[2] = new Product(3, "iphone14promax", 1200);
+        employees[0] = new Employee(1, "chanh", "QN");
+        employees[1] = new Employee(2, "chanh1", "QN");
+        employees[2] = new Employee(3, "chanh2", "QN");
     }
 
     @Override
     public void display() {
         // cần phải lấy dữ liệu và hiển thị ra
-        for (int i = 0; i < products.length; i++) {
-            if (products[i] != null) {
-                System.out.println((i + 1) + "." + products[i]);
+        for (int i = 0; i < employees.length; i++) {
+            if (employees[i] != null) {
+                System.out.println((i + 1) + "." + employees[i]);
             } else {
                 break;
             }
@@ -27,7 +27,7 @@ public class PtoductService implements IProductService {
     }
 
     @Override
-    public Product findById(int id) {
+    public Employee findById(int id) {
         return null;
     }
 
@@ -39,11 +39,11 @@ public class PtoductService implements IProductService {
         System.out.println("nhập name");
         String name = scanner.nextLine();
         System.out.println("nhập address");
-        int price = Integer.parseInt(scanner.nextLine());
-        Product product = new Product(id, name, price);
-        for (int i = 0; i < products.length; i++) {
-            if (products[i] == null) {
-                products[i] = product;
+        String address = scanner.nextLine();
+        Employee student = new Employee(id, name, address);
+        for (int i = 0; i < employees.length; i++) {
+            if (employees[i] == null) {
+                employees[i] = student;
                 break;
             }
         }
@@ -55,12 +55,12 @@ public class PtoductService implements IProductService {
         Scanner scanner = new Scanner(System.in);
         System.out.println("chọn Student muốn xoá");
         int index = Integer.parseInt(scanner.nextLine())-1;
-        for (int i = 0; i < products.length; i++) {
+        for (int i = 0; i < employees.length; i++) {
             if (i == index) {
-                for (int j = index; j < products.length - 1; j++) {
-                    products[j] = products[j + 1];
+                for (int j = index; j < employees.length - 1; j++) {
+                    employees[j] = employees[j + 1];
                 }
-                products[products.length - 1] = null;
+                employees[employees.length - 1] = null;
                 break;
             }
         }
@@ -70,13 +70,13 @@ public class PtoductService implements IProductService {
     public void update() {
         display();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("chọn Product muốn sửa");
+        System.out.println("chọn Student muốn sửa");
         int index = Integer.parseInt(scanner.nextLine())-1;
-        for (int i = 0; i < products.length; i++) {
+        for (int i = 0; i < employees.length; i++) {
             if (i == index) {
                 System.out.println("chọn trường cần sửa" +
                         "\n 1. name"+
-                        "\n 2. Price"+
+                        "\n 2. address"+
                         "\n 3.back main menu");
                 int choose = Integer.parseInt(scanner.nextLine());
                 switch (choose){
@@ -84,13 +84,13 @@ public class PtoductService implements IProductService {
                         // sửa name
                         System.out.println("nhập tên cần sửa");
                         String newName = scanner.nextLine();
-                        products[i].setName(newName);
+                        employees[i].setName(newName);
                         break;
                     case 2:
                         // sửa address
                         System.out.println("nhập địa chỉ cần sửa");
-                        int newPrice = Integer.parseInt(scanner.nextLine());;
-                        products[i].setPrice(newPrice);
+                        String newAddress = scanner.nextLine();
+                        employees[i].setAddress(newAddress);
                         break;
                     default:
                         break;
@@ -101,16 +101,8 @@ public class PtoductService implements IProductService {
         }
     }
 
-    public void search(String name) {
-        display();
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập tên product cần tìm");
-        String name1 = scanner.nextLine();
-        for (int i = 0; i < products.length; i++) {
-            if (products[i].equals(name1)) {
-                System.out.println(products[i]);
-            }
-        }
+    @Override
+    public void search() {
 
     }
 }

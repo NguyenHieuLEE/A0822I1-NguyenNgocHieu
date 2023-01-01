@@ -1,6 +1,6 @@
 //package ss12;
 //
-//import ss9_mvc.model.Student;
+//import ss09_mvc.model.Student;
 //
 //import java.util.*;
 //
