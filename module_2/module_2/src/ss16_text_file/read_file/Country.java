@@ -46,4 +46,8 @@ public class Country {
                 ", name='" + name + '\'' +
                 ']';
     }
+
+    public int getStt() {
+        return 0;
+    }
 }
