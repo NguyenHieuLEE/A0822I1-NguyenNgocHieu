@@ -32,8 +32,8 @@ public class ReadFileCsv {
 
     public static void main(String[] args) {
         List<Country> countries =
-                readFile("E:\\Code_Gym_A0422I1_HuuTri\\Module_2.1\\" +
-                        "src\\ss16_IO_text_file\\exercise\\read_file\\country.csv");
+                readFile(
+                        "src\\ss16_text_file\\read_file\\country.csv");
         countries.forEach(System.out::println);
     }
 }
