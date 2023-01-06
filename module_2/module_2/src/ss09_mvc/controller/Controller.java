@@ -67,15 +67,14 @@ public class Controller {
                         switch(choose2){
                             case 1:
                                 System.out.println("Display list customers");
-                                customerService.display1();
+                                customerService.display();
                                 break;
                             case 2:
                                 System.out.println("Add new customers");
-                                customerService.add1();
+                                customerService.add();
                                 break;
                             case 3:
                                 System.out.println("Edit customers");
-                                customerService.edit();
                                 break;
                             case 4:
                                 System.out.println("Return main menu");

@@ -33,7 +33,7 @@ public class ReadFileCsv {
     public static void main(String[] args) {
         List<Country> countries =
                 readFile(
-                        "src\\ss16_text_file\\read_file\\country.csv");
+                        "/Users/a12345/A0822I1-NguyenNgocHieu/module_2/module_2/src/ss16_text_file/read_file/country.csv");
         countries.forEach(System.out::println);
     }
 }

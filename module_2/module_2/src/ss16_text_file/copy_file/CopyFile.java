@@ -54,8 +54,8 @@ public class CopyFile {
         }
     }
     public static void main(String[] args) throws IOException {
-        List<Country> r = CopyFile.readFile("src\\ss16_text_file\\read_file\\country.csv");
+        List<Country> r = CopyFile.readFile("/Users/a12345/A0822I1-NguyenNgocHieu/module_2/module_2/src/ss16_text_file/copy_file/copy_file.txt");
         r.forEach(System.out::println);
-        CopyFile.writeFile("src\\ss16_text_file\\copy_file\\copy_file.txt", r);
+        CopyFile.writeFile("/Users/a12345/A0822I1-NguyenNgocHieu/module_2/module_2/src/ss16_text_file/copy_file/copy_file.txt", r);
     }
 }

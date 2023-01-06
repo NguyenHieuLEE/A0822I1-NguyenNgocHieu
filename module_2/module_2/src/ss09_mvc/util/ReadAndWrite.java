@@ -24,7 +24,7 @@ public class ReadAndWrite {
     }
 
     public static List<Customer> readCustomerFromCSV(String pathFile) {
-        List<Customer> studentList = new ArrayList<>();
+        List<Customer> customerList = new ArrayList<>();
         File file = new File(pathFile);
         FileReader fileReader = null;
         BufferedReader bufferedReader = null;
@@ -36,7 +36,7 @@ public class ReadAndWrite {
             while ((line = bufferedReader.readLine()) != null) {
                 array = line.split(",");
                 Customer customer = new Customer(Integer.parseInt(array[0]), array[1], array[2]);
-                studentList.add(customer);
+                customerList.add(customer);
             }
             bufferedReader.close();
             fileReader.close();
@@ -45,6 +45,6 @@ public class ReadAndWrite {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return studentList;
+        return customerList;
     }
 }
